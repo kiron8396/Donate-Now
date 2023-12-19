@@ -68,8 +68,14 @@ color: gray;
 .inr>button{ padding: 20px 16px;
     margin-top: 20px;
     margin-right: 40px;
-    border: solid rgb(214, 104, 104)
-
+    border: none;
+    transition: background-color 2s ;
+}
+.tk:hover{
+    border: 2px solid rgb(214, 104, 104);
+    background-color: rgb(255, 114, 114);
+   
+    
 }
 
     
@@ -116,6 +122,7 @@ text-align: start;
 .their-lives{
     display: flex;
     margin:50px 500px;
+    text-align: start;
     
 }
 .how-to{
